@@ -7,7 +7,7 @@ import Header from '../components/Header';
 import Container from '../components/Container';
 import {storiesOf} from '../helpers/storiesOf';
 
-export default storiesOf('Ripple', module)
+storiesOf('Ripples', module)
   .addParameters({jest: ['Ripple']})
   .add('from click', () => (
     <Container>
