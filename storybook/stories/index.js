@@ -5,7 +5,7 @@ import Ripple from '../../src/index';
 
 import Header from '../components/Header';
 import Container from '../components/Container';
-import {storiesOf} from '@storybook/react-native';
+import {storiesOf} from '../helpers/storiesOf';
 
 export default storiesOf('Ripple', module)
   .addParameters({jest: ['Ripple']})
