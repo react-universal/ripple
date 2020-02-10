@@ -1,5 +1,5 @@
 {
-  "name": "react-univeral-ripple",
+  "name": "@reactuniversal/ripple",
   "version": "0.0.1",
   "scripts": {
     "android": "react-native run-android",
@@ -62,9 +62,12 @@
     "type": "git",
     "url": "https://github.com/react-universal/ripple"
   },
-  "author": "",
+  "author": "Cody Pearce",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/react-universal/ripple/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
