@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "storybook": "storybook start -p 7007",
     "storybook-web": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -c .storybook -s ./public -o gh",
     "deploy-docs": "gh-pages -d gh",
     "see-npm-package": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
     "build": "./node_modules/.bin/babel src --out-dir dist --ignore \"**/*.test.js\""
@@ -45,5 +46,25 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "react",
+    "react universal",
+    "react native",
+    "ripple",
+    "material-ripple"
+  ],
+  "description": "React Universal Ripple that works with Web, iOS, Android, Electron",
+  "homepage": "https://react-universal.github.io/ripple/",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-universal/ripple"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/react-universal/ripple/issues"
   }
 }
